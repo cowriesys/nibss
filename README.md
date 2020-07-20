@@ -359,10 +359,11 @@ A failed request will result in one of the following HTTP response error codes
 
 HTTP Code|HTTP Status|Description
 ---------|-----------|------------
-400|Bad Request|Signature does not match or one or more query parameters is incorrect 
-402|Payment Required|Insufficient balance, client account requires payment 
+400|Bad Request|One or more request parameters is invalid
+401|Unauthorized|Signature does not match or request failed authentication
+402|Payment Required|Insufficient balance
 403|Forbidden|One or more required headers are missing
-404|Not Found|Network and/or MSISDN are incorrect
+404|Not Found|Item could not be found for retrieval
 409|Conflict|Nonce has been used before 
 500|Server Error|The server encountered an error 
 
