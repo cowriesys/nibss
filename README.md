@@ -7,7 +7,7 @@ This allows deveopers to create mobile money wallets as well as send and receive
 This repository documents the NIBSS wallet API and contains bindings for the following languages/platforms
 * [C#](https://github.com/cowriesys/nibss/tree/master/cs)
 * [Java](https://github.com/cowriesys/nibss/tree/master/java)
-* [Javascript](https://github.com/nibss/tree/master/js)
+* [Javascript](https://github.com/cowriesys/nibss/tree/master/js)
 * [Python](https://github.com/cowriesys/nibss/tree/master/python)
 
 To start using the API immeadiately, download the code samples for your chosen platform.
