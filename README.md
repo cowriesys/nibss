@@ -1,5 +1,4 @@
-# nibss
-NIBSS wallet API
+# NIBSS wallet API
 
 The NIBSS wallet API enables developers to programatically access mobile money wallets.
 This allows deveopers to create mobile money wallets as well as send and receive bank transfers via the Nigerian Interbank Settlment Systems.
